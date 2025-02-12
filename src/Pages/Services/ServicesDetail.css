@@ -1,0 +1,60 @@
+.Pricing-section {
+  width: var(--default-width);
+  margin-left: var(--side-padding);
+  margin-right: var(--side-padding);
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 🖥️ 4 columns on large screens */
+  gap: 40px;
+  width: var(--default-width);
+  margin-left: var(--side-padding);
+  margin-right: var(--side-padding);
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.feature-item .icon {
+  font-size: 40px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.feature-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* 📌 Responsive Adjustments */
+@media (max-width: 1024px) {
+  .features-container {
+    grid-template-columns: repeat(3, 1fr); /* 📱 3 columns on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    grid-template-columns: repeat(2, 1fr); /* 📱 2 columns on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Reduce gap for smaller screens */
+  }
+}

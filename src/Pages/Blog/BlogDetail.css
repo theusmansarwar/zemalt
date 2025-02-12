@@ -1,0 +1,11 @@
+pre {
+  background-color: #fff;
+  padding: 15px;
+  width: var(--default-width);
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: var(--side-padding);
+  white-space: pre-wrap;
+  text-align: justify;
+  font-size: 18px;
+}
