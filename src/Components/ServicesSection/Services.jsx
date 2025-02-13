@@ -3,7 +3,7 @@ import "./Services.css";
 import dot from "../../Assets/dotsdesign.webp";
 import serviceimg1 from "../../Assets/seo.webp";
 import serviceimg2 from "../../Assets/content-writing.webp";
-import serviceimg3 from "../../Assets/google-ads.webp";
+import serviceimg3 from "../../Assets/googleads.jpeg";
 import serviceimg4 from "../../Assets/social-media-marketing.webp";
 import serviceimg5 from "../../Assets/website-development.webp";
 import serviceimg6 from "../../Assets/ui-ux-design.webp";
@@ -59,20 +59,7 @@ const services = [
 const Services = () => {
   const navigate = useNavigate();
   const [index, setIndex] = useState(0);
-  const [servicesPerPage, setservicesPerPage] = useState(
-    window.innerWidth <= 768 ? 2 : 3
-  );
-
-  // Update itemsPerPage based on screen size
-  useEffect(() => {
-    const handleResize = () => {
-      setservicesPerPage(window.innerWidth <= 768 ? 2 : 3);
-      setIndex(0); // Reset index when screen size changes
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  const servicesPerPage=3;
 
   const nextServices = () => {
     if (index + servicesPerPage < services.length) {

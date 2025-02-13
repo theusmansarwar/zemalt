@@ -45,6 +45,16 @@
 
   --team-background-height: 500px;
 }
+.whatsappimg{
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  z-index: 5;
+}
 @media (max-width: 1000px) {
   :root {
     --fontsize-heading: 30px;
@@ -59,8 +69,8 @@
     --hero-section-heading: 40px;
     --hero-section-description: 14px;
     --hero-section-height: 435px;
-    --service-card-height: 345px;
-    --service-card-img-height: 139px;
+    --service-card-height: 365px;
+    --service-card-img-height: 159px;
     --service-card-p-height: 140px;
     --card-p-size: 14px;
 

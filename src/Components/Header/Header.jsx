@@ -34,7 +34,7 @@ const Header = () => {
     if (currentPath.startsWith("/services")) {
       setActiveItem("Services");
     }
-    if (currentPath.startsWith("/blog")) {
+    else if (currentPath.startsWith("/blog")) {
       setActiveItem("Blog");
     } else {
       const active = menuItems.find((item) => item.path === currentPath);

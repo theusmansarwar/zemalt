@@ -8,7 +8,7 @@ import Benefits from "../../Components/Benifits/Benefits";
 import backgroundimg from "../../Assets/background3.webp";
 import serviceimg1 from "../../Assets/seo.webp";
 import serviceimg2 from "../../Assets/content-writing.webp";
-import serviceimg3 from "../../Assets/google-ads.webp";
+import serviceimg3 from "../../Assets/googleads.jpeg";
 import serviceimg4 from "../../Assets/social-media-marketing.webp";
 import serviceimg5 from "../../Assets/website-development.webp";
 import serviceimg6 from "../../Assets/ui-ux-design.webp";

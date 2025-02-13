@@ -12,10 +12,10 @@
 }
 
 .highlight {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-.benefits-subtext {
+.benefits-subtext2 {
   margin: 10px auto 40px;
   font-size: 1rem;
   color: #666;
@@ -82,12 +82,12 @@
 }
 
 @media (max-width: 768px) {
-  .benefits-subtext {
+  .benefits-subtext2 {
     margin: 10px auto 40px;
     font-size: 1rem;
     color: #666;
     max-width: 95%;
-  }
+  } 
 
   .benefit-card {
     margin: 0%;

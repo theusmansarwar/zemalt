@@ -39,7 +39,7 @@ const Benefits = () => {
       <h2 className="benefits-heading">
         The Benefits of Working with <span className="highlight">Zemalt</span>
       </h2>
-      <p className="benefits-subtext">
+      <p className="benefits-subtext2">
         Digital marketing services provide businesses of all sizes with an
         opportunity to market their brand 24/7 at a low cost. From startups to
         medium-sized enterprises to multiple-location companies, a digital

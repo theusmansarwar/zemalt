@@ -14,6 +14,7 @@ import alexia from "../../Assets/alexia.png";
 import TeamCard from "../../Templates/TeamCard";
 import backgroundimg from "../../Assets/background3.webp";
 import headingDesign from "../../Assets/headingDesign.svg";
+import baber from '../../Assets/babar.png'
 const teamMembers = [
   {
     name: "Sufyan Rasheed",
@@ -47,10 +48,10 @@ const teamMembers = [
     image: hamza,
   },
   {
-    name: "Baber Saleem",
+    name: "Babar Saleem",
     role: "Ui/Ux Designer",
     description: "Finance expert, passionate about growth and sustainability",
-    image: hamza,
+    image: baber,
   },
 ];
 const teamMembers2 = [

@@ -13,10 +13,17 @@ import Disclaimer from "./Pages/OthersPages/Disclaimer";
 import Team from "./Pages/Team/Team";
 import Blog from "./Pages/Blog/Blog";
 import BlogDetail from "./Pages/Blog/BlogDetail";
+import whatsapp from './Assets/whatsapp.png';
 function App() {
   return (
     <Router>
       <Header />
+      <a
+              href="http://wa.me/923007044566"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+      <img className="whatsappimg" src={whatsapp}/></a>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/services" element={<Services />} />
