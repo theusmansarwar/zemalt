@@ -1,9 +1,0 @@
-.Blog-grid{
-    width: var(--default-width);
-    margin-left: var(--side-padding);
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.Blog-heading{
-    color: var(--secondary-color);
-}
