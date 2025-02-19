@@ -103,7 +103,7 @@ const Header = () => {
       {/* Navbar */}
       <Navbar expand="lg">
         <Container fluid className="nav-container">
-          <Navbar.Brand href="zemalt.com">
+          <Navbar.Brand href="/">
             <img className="header-logo" src={zemaltlogo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" />

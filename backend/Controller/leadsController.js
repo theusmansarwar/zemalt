@@ -1,5 +1,5 @@
 const Leads = require("../Models/leadsModel");
-
+const sendEmailToCompany = require("./emailverification");
 const CreateLeads = async (req, res) => {
   const { name, email, phone, subject, query } = req.body;
 
@@ -15,7 +15,7 @@ const CreateLeads = async (req, res) => {
       status: 400,
       message: `The following fields are required: ${missingFields.join(", ")}`,
     });
-  }
+  }  
 
   try {
     const LeadsCreated = await Leads.create({
@@ -25,6 +25,7 @@ const CreateLeads = async (req, res) => {
       subject,
       query,
     });
+    sendEmailToCompany({ email, name, subject, phone, query }, res);
 
     if (!LeadsCreated) {
       return res.status(500).json({
